@@ -1,0 +1,18 @@
+curl --location --request POST 'https://spin.credmo.systemadmin.com/api/enterprise/v1/tui/report' \
+--header 'Content-Type: application/json' \
+--header 'x-credmo-auth-token: 23cd6b1f-ebb2-4d7f-9f52-7dba577465da' \
+--data-raw '{
+    "firstName": "Thomas",
+    "lastName": "Friedman",
+    "ssn": "666234390",
+    "dob": "1975-01-01",
+    "address": {
+        "address1": "535 30 RD A",
+        "city": "Grand Junction",
+        "state": "CO",
+        "zip": "81504"
+    },
+    "clientKey": "100001-43762560",
+    "authTimestamp": "2019-05-22T17:30:41.343Z",
+    "authProvider": "tui"
+}'

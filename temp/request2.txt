@@ -1,0 +1,2 @@
+curl --location --request GET 'https://spin.credmo.systemadmin.com/api/enterprise/v1/browser/tui/report?displayToken=01DBE931-FCFF-4D7B-9214-0C6BBA79B79D&onSuccess=Success&onWaiting=Waiting&onFailure=Failure&generic=true' \
+--header 'Content-Type: application/json'
